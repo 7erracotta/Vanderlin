@@ -58,6 +58,7 @@
 	max_integrity = INTEGRITY_STRONG
 	r_sleeve_status = SLEEVE_NORMAL
 	l_sleeve_status = SLEEVE_NORMAL
+	sewrepair = TRUE
 
 	armor = ARMOR_PADDED_GOOD
 
