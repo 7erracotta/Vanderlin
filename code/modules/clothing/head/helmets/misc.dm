@@ -114,6 +114,17 @@
 	armor = ARMOR_SCALE
 	max_integrity = INTEGRITY_POOR
 	item_weight = 5.5 * IRON_MULTIPLIER
+
+/obj/item/clothing/head/helmet/kettle/slit/lakkariancap
+	name = "lakkarian crowned cap"
+	desc = "a crimson red iron cap decorated with gold trims and embellishments. The design of this helmet hasn't changed in centuries."
+	icon_state = "lakkaricap"
+	body_parts_covered = COVERAGE_HEAD
+	sellprice = VALUE_CHEAP_IRON_HELMET
+	armor = ARMOR_SCALE
+	max_integrity = INTEGRITY_STANDARD
+	item_weight = 5.5 * IRON_MULTIPLIER
+
 //................ Iron Pot Helmet ............... //
 /obj/item/clothing/head/helmet/ironpot
 	name = "pot helmet"
