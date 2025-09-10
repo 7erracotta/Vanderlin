@@ -46,7 +46,7 @@
 	l_sleeve_status = SLEEVE_NORMAL
 	sewrepair = TRUE
 	max_integrity = 175
-	prevent_crits = list(BCLASS_CUT, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_BLUNT, BCLASS_TWIST, BCLASS_CHOP)
 	armor = list("blunt" = 65, "slash" = 50, "stab" = 25, "piercing" = 25,"fire" = 0, "acid" = 0)
 
 /obj/item/clothing/pants/trou/leather/masterwork

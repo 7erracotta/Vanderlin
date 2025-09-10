@@ -39,6 +39,7 @@
 		H.adjust_skillrank(/datum/skill/labor/mathematics, 1, TRUE)
 
 		H.change_stat(STATKEY_END, 2)
+		H.change_stat (STATKEY_INT, 1)
 		H.change_stat(STATKEY_SPD, 2) // haha elves go nyoom
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)

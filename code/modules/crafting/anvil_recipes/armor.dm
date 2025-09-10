@@ -261,6 +261,11 @@
 	recipe_name = "a sturdy iron helmet"
 	created_item = /obj/item/clothing/head/helmet/ironpot
 
+datum/anvil_recipe/armor/iron/lakkariancap
+	name = "Lakkarian Cap (+ Gold Bar)"
+	recipe_name = "a sturdy lakkarian cap"
+	created_item =
+
 /datum/anvil_recipe/armor/iron/nasal_helmet
 	name = "Nasal helmet"
 	recipe_name = "a Nasal helmet"
