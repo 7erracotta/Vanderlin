@@ -48,3 +48,8 @@
 	name = "valorian blade pendant"
 	desc = "A silver pendant shaped as a rapier lined with gems, Worn by Valorian Duelists to honor their mastery of the blade and unyielding pursuit of glory in combat."
 	icon_state = "duelistcharm"
+
+/obj/item/clothing/neck/mercmedal/goldfeather
+	name = "golden feather charm"
+	desc = "a palm-sized charm consisting of four golden feathers. It was once bestowed upon the Pegasus Knights who helped drive back Grenzelhoftian settlers from Lakkari."
+	icon_state = "goldfeather"
