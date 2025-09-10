@@ -307,3 +307,5 @@
 	body_parts_covered = HEAD_NECK
 	prevent_crits = ALL_EXCEPT_BLUNT
 	block2add = FOV_BEHIND
+	anvilrepair = /datum/skill/craft/armorsmithing
+	sewrepair = FALSE
