@@ -993,13 +993,13 @@
 	category = "Cloak"
 
 /datum/repeatable_crafting_recipe/sewing/lakkarijupon
-	name "lakkarian jupon"
+	name = "lakkarian jupon"
 	output = /obj/item/clothing/armor/gambeson/lakkarijupon
 	requirements = list(/obj/item/natural/cloth = 4,
 				/obj/item/natural/fibers = 2,
 				/obj/item/ingot/iron = 1)
 	craftdiff = 4
-	category = Armor // play shipwrecked 64 btw
+	category = "Armor" // play shipwrecked 64 btw
 /*.............. recipes requiring skill 5 ..............*/
 
 /datum/repeatable_crafting_recipe/sewing/grenzel_shirt
