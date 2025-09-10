@@ -311,3 +311,11 @@
 	item_state = "silktabard"
 	sleeved = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	allowed_ages = ALL_AGES_LIST //placeholder until younglings have onmob sprites for this item
+
+/obj/item/clothing/cloak/pegasusknight
+	name = "pegasus knight tabard"
+	desc = "A quilted tabard worn by Lakkarian pegasus knights."
+	icon_state = "lakkaritabard"
+	item_state = "lakkaritabard"
+	sleeved = 'icons/roguetown/clothing/onmob/cloaks.dmi'
+	allowed_race = SPECIES_BASE_BODY
