@@ -999,7 +999,7 @@
 				/obj/item/natural/fibers = 2,
 				/obj/item/ingot/iron = 1)
 	craftdiff = 4
-	category = "Armor" // play shipwrecked 64 btw
+	category = "Armor"
 /*.............. recipes requiring skill 5 ..............*/
 
 /datum/repeatable_crafting_recipe/sewing/grenzel_shirt
