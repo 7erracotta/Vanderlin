@@ -162,7 +162,7 @@
 
 /datum/repeatable_crafting_recipe/sewing/lakkarikilt
 	name = "padded kilt"
-	output = /obj/item/clothing/pants/tights
+	output = /obj/item/clothing/pants/trou/leather/quiltedkilt
 	requirements = list(/obj/item/natural/cloth = 4,
 				/obj/item/natural/fibers = 2)
 	category = "Pants"
