@@ -1000,6 +1000,7 @@
 				/obj/item/ingot/iron = 1)
 	craftdiff = 4
 	category = "Armor"
+
 /*.............. recipes requiring skill 5 ..............*/
 
 /datum/repeatable_crafting_recipe/sewing/grenzel_shirt
