@@ -45,15 +45,18 @@
 		H.change_stat(STATKEY_SPD, 2) // haha elves go nyoom
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
-	var/weapons = list("Silver Sengese","Silver Rungu")
-	var/weapon_choice = input("Choose your weapon.", "TAKE UP ARMS") as anything in weapons
-	switch(weapon_choice)
-		if("Silver Sengese")
-			beltl = /obj/item/weapon/sword/scimitar/sengese/silver
-			H.adjust_skillrank(/datum/skill/combat/swords, 4, TRUE)
+	var/static/list/selectable = list( \
+		"Silver Rungu" = /obj/item/weapon/mace/silver/rungu, \
+		"Silver Sengese" = /obj/item/weapon/sword/scimitar/sengese/silver \
+		)
+	var/choice = H.select_equippable(H, selectable, message = "What is your weapon of choice?")
+	if(!choice)
+		return
+	switch(choice)
 		if("Silver Rungu")
-			beltr = /obj/item/weapon/mace/silver/rungu
 			H.adjust_skillrank(/datum/skill/combat/axesmaces, 4, TRUE)
+		if("Silver Sengese")
+			H.adjust_skillrank(/datum/skill/combat/swords, 4, TRUE)
 	var/holder = H.patron?.devotion_holder
 	if(holder)
 		var/datum/devotion/devotion = new holder()
