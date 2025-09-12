@@ -25,22 +25,21 @@
 	belt = /obj/item/storage/belt/leather
 	backr = /obj/item/storage/backpack/satchel
 	backpack_contents = list(/obj/item/storage/belt/pouch/coins/poor = 1, /obj/item/reagent_containers/food/snacks/hardtack = 1)
-	if(H.mind)
-		H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
-		H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
-		H.adjust_skillrank(/datum/skill/misc/climbing, 1, TRUE)
-		H.adjust_skillrank(/datum/skill/misc/swimming, 1, TRUE)
-		H.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE) // years of martial training would make you quite athletic
-		H.adjust_skillrank(/datum/skill/misc/reading, 3, TRUE)
-		H.adjust_skillrank(/datum/skill/magic/holy, 2, TRUE)
-		H.adjust_skillrank(/datum/skill/craft/cooking, 1, TRUE)
-		H.adjust_skillrank(/datum/skill/misc/sewing, 1, TRUE)
-		H.adjust_skillrank(/datum/skill/misc/medicine, 1, TRUE)
-		H.adjust_skillrank(/datum/skill/labor/mathematics, 1, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/climbing, 1, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/swimming, 1, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE) // years of martial training would make you quite athletic
+	H.adjust_skillrank(/datum/skill/misc/reading, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/magic/holy, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/craft/cooking, 1, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/sewing, 1, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/medicine, 1, TRUE)
+	H.adjust_skillrank(/datum/skill/labor/mathematics, 1, TRUE)
 
-		H.change_stat(STATKEY_END, 2)
-		H.change_stat (STATKEY_INT, 1)
-		H.change_stat(STATKEY_SPD, 2) // haha elves go nyoom
+	H.change_stat(STATKEY_END, 2)
+	H.change_stat (STATKEY_INT, 1)
+	H.change_stat(STATKEY_SPD, 2) // haha elves go nyoom
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 	var/weapons = list("Silver Sengese","Silver Rungu")
